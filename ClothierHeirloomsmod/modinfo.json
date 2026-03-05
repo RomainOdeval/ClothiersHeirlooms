@@ -1,0 +1,16 @@
+{
+    "type": "code",
+    "modid": "clothierheirloomsmod",
+    "name": "Clothier's 'Heirlooms",
+  "authors": [
+    "Rivvion",
+    "Pal-5000",
+    "DarthSack",
+    "Freakyuser396"
+  ],
+    "description": "WORK IN PROGRESS! FOR TESTING",
+    "version": "1.0.2",
+    "dependencies": {
+        "game": "1.21.5"
+    }
+}
