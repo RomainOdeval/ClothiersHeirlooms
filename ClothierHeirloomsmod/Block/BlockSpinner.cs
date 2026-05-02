@@ -66,15 +66,23 @@ namespace ClothierHeirloomsmod.NSBlock
             }.Append(base.GetPlacedBlockInteractionHelp(world, selection, forPlayer));
         }
 
-        public override bool HasMechPowerConnectorAt(IWorldAccessor world, BlockPos pos, BlockFacing face)
+/*        public override bool HasMechPowerConnectorAt(IWorldAccessor world, BlockPos pos, BlockFacing face)
         {
             Block block = world.BlockAccessor.GetBlock(pos);
 
             string facing = block.LastCodePart();
             BlockFacing backFace = BlockFacing.FromCode(facing);
             return face == backFace;
-        }
+        }*/
+public override bool HasMechPowerConnectorAt(IWorldAccessor world, BlockPos pos, BlockFacing face, BlockMPBase fromBlock)
+{
+    Block block = world.BlockAccessor.GetBlock(pos);
 
+    string facing = block.LastCodePart();
+    BlockFacing backFace = BlockFacing.FromCode(facing);
+
+    return face == backFace;
+}
 
 
         public override void DidConnectAt(IWorldAccessor world, BlockPos pos, BlockFacing face)

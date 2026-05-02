@@ -3,7 +3,7 @@
 	"class": "BlockAutoloom",
 	"entityClass": "Autoloom",
 	"entityBehaviors": [
-		{ "name": "MPConsumer" },
+		{ "name": "MPConsumer", "properties": { "mechPartShape": null } },
 		{ "name": "Animatable" }
 	],
 	"behaviorsbytype": {

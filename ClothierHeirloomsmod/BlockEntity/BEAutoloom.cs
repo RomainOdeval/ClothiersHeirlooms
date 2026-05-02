@@ -169,16 +169,16 @@ namespace ClothierHeirloomsmod.NSBlockEntity
                             //2 is south
                             //3 is west
 
-                            if(facing == BlockFacing.HORIZONTALS[3] && mpc.isRotationReversed()){
+                            if(facing == BlockFacing.HORIZONTALS[3] && mpc.IsRotationReversed()){
                                 animCode = "looming2";
                             }
-                            if(facing == BlockFacing.HORIZONTALS[1] && !mpc.isRotationReversed()){
+                            if(facing == BlockFacing.HORIZONTALS[1] && !mpc.IsRotationReversed()){
                                 animCode = "looming2";
                             }
-                            if(facing == BlockFacing.HORIZONTALS[0] && !mpc.isRotationReversed()){
+                            if(facing == BlockFacing.HORIZONTALS[0] && !mpc.IsRotationReversed()){
                                 animCode = "looming2";
                             }
-                            if(facing == BlockFacing.HORIZONTALS[2] && mpc.isRotationReversed()){
+                            if(facing == BlockFacing.HORIZONTALS[2] && mpc.IsRotationReversed()){
                                 animCode = "looming2";
                             }
                         }
