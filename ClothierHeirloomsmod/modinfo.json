@@ -9,7 +9,7 @@
     "Freakyuser396"
   ],
     "description": "Adds late game axle power machines that yield more Twine from Fibers & more Linen from Twine",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependencies": {
         "game": "1.22.0"
     }
